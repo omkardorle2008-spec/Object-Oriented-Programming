@@ -1,9 +1,0 @@
-# Compiled executables (Linux/macOS have no extension, Windows uses .exe)
-Assignment*
-!Assignment*.cpp
-*.exe
-*.out
-*.o
-
-# Build folder, if you use one
-build/
