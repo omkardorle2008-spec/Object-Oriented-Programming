@@ -1,0 +1,8 @@
+# Compiled executables (Linux has no extension, Windows uses .exe)
+Assignment*
+!Assignment*.cpp
+*.exe
+*.out
+*.o
+
+build/
