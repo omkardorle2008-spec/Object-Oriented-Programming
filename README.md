@@ -30,6 +30,215 @@
 | **Semester** | Semester I — B.Tech AI/ML (FY) |
 
 ---
+---
+
+## 🧾 Sample Outputs
+
+<details>
+<summary><b>Assignment 1 — Book class (Digital Inventory System)</b></summary>
+
+```text
+===== Digital Book Inventory System =====
+Enter Book Title: The Alchemist
+Enter Author Name: Paulo Coelho
+Enter ISBN: 9780062315007
+Enter Price: 399.50
+
+----- Book Information -----
+Title : The Alchemist
+Author : Paulo Coelho
+ISBN : 9780062315007
+Price : 399.5
+```
+
+</details>
+
+<details>
+<summary><b>Assignment 2 — Student class (College Record System)</b></summary>
+
+```text
+=== College Record Digitization System ===
+
+1. Add New Student Record
+2. Display All Student Records
+3. Search Student by Roll Number
+4. Exit
+Enter your choice: 1
+
+--- Enter Details for Student 1 ---
+Enter Roll Number: 101
+Enter Name: Anjali Sharma
+Enter Course: Computer Science
+Enter Admission Year: 2025
+---------------------
+Record saved successfully!
+
+1. Add New Student Record
+2. Display All Student Records
+3. Search Student by Roll Number
+4. Exit
+Enter your choice: 1
+
+--- Enter Details for Student 2 ---
+Enter Roll Number: 102
+Enter Name: Rahul Patil
+Enter Course: Information Technology
+Enter Admission Year: 2025
+---------------------
+Record saved successfully!
+
+1. Add New Student Record
+2. Display All Student Records
+3. Search Student by Roll Number
+4. Exit
+Enter your choice: 2
+
+--- Total Student Records ---
+Roll Number: 101
+Name: Anjali Sharma
+Course: Computer Science
+Admission Year: 2025
+---------------------
+Roll Number: 102
+Name: Rahul Patil
+Course: Information Technology
+Admission Year: 2025
+---------------------
+
+1. Add New Student Record
+2. Display All Student Records
+3. Search Student by Roll Number
+4. Exit
+Enter your choice: 3
+
+Enter Roll Number to search: 102
+
+--- Record Found ---
+Roll Number: 102
+Name: Rahul Patil
+Course: Information Technology
+Admission Year: 2025
+---------------------
+
+1. Add New Student Record
+2. Display All Student Records
+3. Search Student by Roll Number
+4. Exit
+Enter your choice: 4
+
+Exiting system. Goodbye!
+```
+
+</details>
+
+<details>
+<summary><b>Assignment 3 — Employee class (HR Information System)</b></summary>
+
+```text
+
+--- Employee Record (HR View) ---
+ID: 101
+Name: Alice Smith
+Department: HR
+Salary: 55000
+ID: 102
+Name: Bob Jones
+Department: Engineer
+Salary: 75000
+```
+
+</details>
+
+<details>
+<summary><b>Assignment 4 — Book class (Default + Parameterized Constructors)</b></summary>
+
+```text
+First Book Details:
+Book ID: 101
+Title: C++ Programming
+Author: Bjarne Stroustrup
+Price: Rs. 500
+------------------------
+Second Book Details:
+Book ID: 102
+Title: Object Oriented Programming
+Author: Robert Lafore
+Price: Rs. 650
+------------------------
+```
+
+</details>
+
+<details>
+<summary><b>Assignment 5 — Student class (this pointer)</b></summary>
+
+```text
+Student Details
+Roll Number: 101
+Name: Anjali
+Course: Computer Science
+```
+
+</details>
+
+<details>
+<summary><b>Assignment 6 — Employee class (Constructor & Destructor)</b></summary>
+
+```text
+Employee record created for Anjali
+Employee ID: 101
+Employee Name: Anjali
+Employee record removed for Anjali
+```
+
+</details>
+
+<details>
+<summary><b>Assignment 7 — Person/Student (Single Inheritance)</b></summary>
+
+```text
+Name: Anjali
+Age: 20
+Contact: 9876543210
+Roll Number: 101
+Branch: Computer Science
+```
+
+</details>
+
+<details>
+<summary><b>Assignment 8 — Person → Employee → Manager (Multilevel Inheritance)</b></summary>
+
+```text
+--- Manager Details ---
+Name: Anjali
+Age: 40
+Contact: 9876543210
+Employee ID: 101
+Department: HR
+Team Size: 8
+```
+
+</details>
+
+<details>
+<summary><b>Assignment 9 — Vehicle Management (Hierarchical Inheritance)</b></summary>
+
+```text
+Car Details
+Registration No: MH12AB1234
+Brand: Toyota
+Seating Capacity: 5
+------------------------
+Truck Details
+Registration No: MH14CD5678
+Brand: Tata
+Load Capacity: 12.5 tons
+------------------------
+```
+
+</details>
+
 
 ## 📚 Course Units
 
@@ -101,34 +310,3 @@ g++ -std=c++17 "Assignment 6m.cpp" -o /tmp/a6m
 
 </div>
 
----
-
-## 🧾 Sample Outputs
-
-<details>
-<summary><b>Assignment 1 — Book class (Digital Inventory System)</b></summary>
-
-```text
-===== Digital Book Inventory System =====
-Enter Book Title: The Alchemist
-Enter Author Name: Paulo Coelho
-Enter ISBN: 9780062315007
-Enter Price: 399.50
-
------ Book Information -----
-Title : The Alchemist
-Author : Paulo Coelho
-ISBN : 9780062315007
-Price : 399.5
-```
-
-</details>
-
-<details>
-<summary><b>Assignment 2 — Student class</b></summary>
-
-```text
-(paste output here)
-```
-
-</details>
