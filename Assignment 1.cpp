@@ -19,7 +19,7 @@ using namespace std;
         getline(cin,title);
 
         cout<<"Enter autorname";
-        getline(cin,ISBN);
+        getline(cin,author);
 
         cout<<"Enter price";
 
