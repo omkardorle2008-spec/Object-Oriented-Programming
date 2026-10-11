@@ -100,3 +100,35 @@ g++ -std=c++17 "Assignment 6m.cpp" -o /tmp/a6m
 *MIT School of Artificial Intelligence · MIT-ADT University, Pune*
 
 </div>
+
+---
+
+## 🧾 Sample Outputs
+
+<details>
+<summary><b>Assignment 1 — Book class (Digital Inventory System)</b></summary>
+
+```text
+===== Digital Book Inventory System =====
+Enter Book Title: The Alchemist
+Enter Author Name: Paulo Coelho
+Enter ISBN: 9780062315007
+Enter Price: 399.50
+
+----- Book Information -----
+Title : The Alchemist
+Author : Paulo Coelho
+ISBN : 9780062315007
+Price : 399.5
+```
+
+</details>
+
+<details>
+<summary><b>Assignment 2 — Student class</b></summary>
+
+```text
+(paste output here)
+```
+
+</details>
