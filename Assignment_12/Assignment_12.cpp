@@ -1,29 +1,42 @@
 #include <iostream>
+#include <string>
 using namespace std;
-// Function Template
+
+// Class Template
 template <typename T>
-void mySwap(T &a, T &b)
+class Data
 {
-T temp = a;
-a = b;
-b = temp;
-}
+private:
+    T value;
+
+public:
+    // Constructor
+    Data(T v)
+    {
+        value = v;
+    }
+
+    // Display Function
+    void display()
+    {
+        cout << "Stored Value: " << value << endl;
+    }
+};
+
 int main()
 {
-// Swapping Employee IDs
-int emp1 = 101, emp2 = 102;
-mySwap(emp1, emp2);
-cout << "Employee IDs after swap: "
-<< emp1 << " " << emp2 << endl;
-// Swapping Room Numbers
-int room1 = 201, room2 = 205;
-mySwap(room1, room2);
-cout << "Room Numbers after swap: "
-<< room1 << " " << room2 << endl;
-// Swapping Task Priorities
-float p1 = 1.5, p2 = 2.5;
-mySwap(p1, p2);
-cout << "Task Priorities after swap: "
-<< p1 << " " << p2 << endl;
-return 0;
+    // Storing Integer Value
+    Data<int> d1(100);
+
+    // Storing Decimal Value
+    Data<double> d2(95.75);
+
+    // Storing Text Value
+    Data<string> d3("Computer Science");
+
+    d1.display();
+    d2.display();
+    d3.display();
+
+    return 0;
 }
