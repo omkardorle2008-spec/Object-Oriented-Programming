@@ -38,7 +38,7 @@ A structured collection of C++ practical assignments covering classes, construct
 | 10 | Generic max() function template | [Assignment_10](./Assignment_10/) | Source + output |
 | 11 | Generic swap() function template | [Assignment_11](./Assignment_11/) | Source + output |
 | 12 | Generic storage class template | [Assignment_12](./Assignment_12/) | Source + output |
-| 13 | Student records — permanent file storage and retrieval | [Assignment_13](./Assignment_13/) | Planned |
+| 13 | Student records — permanent file storage and retrieval | [Assignment_13](./Assignment_13/) | Source + output |
 | 14 | Employee records — persistent file across sessions | [Assignment_14](./Assignment_14/) | Planned |
 | 15 | File modes — create, update, and access operations | [Assignment_15](./Assignment_15/) | Planned |
 
@@ -51,7 +51,7 @@ Assignment_02/
 Assignment_15/
 ```
 
-Each completed assignment folder contains a numbered `.cpp` source file, an `Assignment_NN.png` output screenshot when one is available, and a folder README. Assignments 6–9 also include an `_interactive.cpp` variant. Assignments 13–15 are currently planned entries; their source and screenshot files have not been added yet.
+Each completed assignment folder contains a numbered `.cpp` source file, an `Assignment_NN.png` output screenshot when one is available, and a folder README. Assignments 6–9 also include an `_interactive.cpp` variant. Assignments 14–15 are currently planned entries; their source and screenshot files have not been added yet.
 
 ## Build and Run
 

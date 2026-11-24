@@ -2,8 +2,13 @@
 
 **Topic:** Student records — permanent file storage and retrieval
 
-Planned; source code and output image have not been added yet.
+Source and output available.
 
+- Source: [`Assignment_13.cpp`](Assignment_13.cpp)
+
+## Output
+
+![Assignment 13 output](./Assignment_13.png)
 
 ---
 
